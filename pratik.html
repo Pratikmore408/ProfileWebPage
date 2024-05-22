@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratik More - Full Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="icon.svg" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+      header {
+        background-color: #008080; /* Teal */
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+      }
+      nav {
+        background-color: #333;
+        color: white;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #575757;
+      }
+      section {
+        padding: 20px;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      #about {
+        background-color: #e0f7fa; /* Light Cyan */
+      }
+      #portfolio {
+        background-color: #fff3e0; /* Light Orange */
+      }
+      #contact {
+        background-color: #e8f5e9; /* Light Green */
+      }
+      #experience {
+        background-color: rgb(232, 233, 247);
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      .footer p {
+        margin: 10px 0;
+      }
+
+      .footer ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .footer ul li {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+
+      .portfolio-item {
+        margin: 20px 0;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      a {
+        color: #008080; /* Teal */
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .social-links {
+        margin-top: 20px;
+      }
+      .social-links a {
+        margin: 0 10px;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+      }
+
+      .experience-item {
+        margin-bottom: 20px;
+      }
+
+      .experience-item h3 {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pratik More</h1>
+      <p>Full Stack Developer</p>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/pratik-more-035a15212/"
+          target="_blank"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
+            alt="LinkedIn"
+            style="width: 24px; height: 24px"
+          />
+        </a>
+        <a href="https://github.com/Pratikmore408" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            alt="GitHub"
+            style="width: 24px; height: 24px"
+          />
+        </a>
+      </div>
+    </header>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#experience">Experience</a>
+      <a href="#footer">Contact</a>
+    </nav>
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>
+        Hey there! I'm Pratik, a User Experience enthusiast turned Full Stack
+        Developer with 1.2 years of experience in UX. Over the past 1.5 years,
+        I've been honing my skills and diving deep into the world of full-stack
+        development. I've crafted several projects that showcase my dedication
+        and passion for creating seamless Web Apps. Now, I'm excited to
+        transition into a new chapter of my career, leveraging my UX background
+        to build robust and user-centric applications as a Full Stack Developer.
+        Let's connect and build something great together!
+      </p>
+      <p>
+        I have a strong passion for coding, volleyball, cricket and traveling.
+        My journey in the tech world has been exciting and I am constantly
+        looking to improve my skills and take on new challenges.
+      </p>
+    </section>
+    <section id="portfolio" class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-item">
+        <h3>1. Chatter App</h3>
+        <p>
+          A dynamic and interactive chatting application built with Node.js,
+          React.js, Tailwind CSS, and Redux Toolkit. The app features robust
+          authentication for secure user access and enables seamless real-time
+          communication among all users using Socket.Io. Designed with a modern
+          and responsive interface, Chatter App ensures an engaging user
+          experience across devices.
+        </p>
+        <h4>
+          Hosted Link :
+          <a href="https://chatapp-9k2x.onrender.com/" target="_blank"
+            >Chatter App</a
+          >
+        </h4>
+      </div>
+      <div class="portfolio-item">
+        <h3>2. Contactslist App</h3>
+        <p>
+          A sleek and minimalist contact management application developed with
+          React.js and Redux Toolkit using Firebase as persistant storage. The
+          app allows users to efficiently perform all CRUD (Create, Read,
+          Update, Delete) operations on their contacts. Designed for simplicity
+          and ease of use, it ensures a smooth and intuitive user experience.
+        </p>
+        <h4>
+          Hosted Link :
+          <a href="https://my-contacts-by-pratik.netlify.app/" target="_blank"
+            >My Contacts List</a
+          >
+        </h4>
+      </div>
+      <div class="portfolio-item">
+        <h3>3. PlacementCell App</h3>
+        <p>
+          A comprehensive application built with Node.js, Express, MongoDB, and
+          EJS, designed for employees to schedule student interviews with
+          companies. The app features functionality to update interview statuses
+          and export all interview data and details in CSV format, ensuring
+          efficient interview management and record-keeping.
+        </p>
+        <h4>
+          Hosted Link :
+          <a href="https://placementcell-app-91ih.onrender.com/" target="_blank"
+            >PlacementCell App</a
+          >
+        </h4>
+      </div>
+      <div class="portfolio-item">
+        <h3>4. Movie Fever</h3>
+        <p>
+          An immersive web application crafted with pure vanilla JavaScript,
+          HTML, and CSS, tailored for movie enthusiasts. Explore a vast
+          collection of movies, accessing comprehensive details including cast,
+          runtime, ratings, awards, and more. Personalize your experience by
+          adding favorite movies to your list, ensuring easy access to cherished
+          cinematic gems.
+        </p>
+        <h4>
+          Hosted Link :
+          <a href="https://moviefeverbypratikmore.netlify.app/" target="_blank"
+            >Movie Fever</a
+          >
+        </h4>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+    <section id="experience" class="container">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Student Success Specialist - Think and Learn Pvt Ltd</h3>
+        <p><strong>Company:</strong> Think and Learn Pvt Ltd</p>
+        <p><strong>Role:</strong> Student Success Specialist</p>
+        <p><strong>Duration:</strong> September 10, 2021 - October 17, 2022</p>
+        <p><strong>Learnings:</strong></p>
+        <ul>
+          <li>
+            Developed strong communication and interpersonal skills through
+            regular interactions with students and parents.
+          </li>
+          <li>
+            Gained expertise in student mentoring and counseling, assisting
+            students in overcoming academic challenges and achieving their
+            goals.
+          </li>
+          <li>
+            Enhanced organizational and time management skills by efficiently
+            managing student records and scheduling appointments.
+          </li>
+          <li>
+            Collaborated with educators to identify student learning needs and
+            develop personalized learning plans.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <h3>Contact Me</h3>
+      <ul>
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:pratikmore408@gmail.com">pratikmore408@gmail.com</a>
+        </li>
+        <li>
+          <strong>Mobile:</strong>
+          <a href="tel:+918511846210">+91 8511846210</a>
+        </li>
+      </ul>
+      <p>&copy; 2024 Pratik More. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
